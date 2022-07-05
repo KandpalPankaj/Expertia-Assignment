@@ -36,13 +36,6 @@ function App() {
     <div className="App">
       <div className="header">Welcome To Job Board</div>
       <div>
-        {/* {filterKeywords.length > 0 && (
-        <Header
-          keywords={filterKeywords}
-          removeKeywords={deleteKeyword}
-          clearAll={clearAll}
-        />
-      )} */}
         <Search
           setSearchKeyword={setSearchKeyword}
           handleKeyDown={handleKeyDown}
