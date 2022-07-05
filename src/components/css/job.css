@@ -11,9 +11,8 @@
   box-shadow: 0px 4px 6px 4px rgba(91, 164, 164, 0.2);
 }
 
-.position > Link {
-  text-decoration: none;
-  color: black;
+.position > span {
+  color: rgb(70, 143, 216)
 }
 .logo {
   display: flex;
@@ -64,8 +63,14 @@
 
 .details {
   color: hsl(180, 8%, 52%);
+  /* border: 1px solid red; */
+  padding: 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+/* .details>span{
+border: 1px solid green;
+} */
 .part2 {
   display: flex;
   flex-wrap: wrap;
@@ -78,6 +83,7 @@
   color: rgb(70, 143, 216);
   font-weight: 700;
   padding: 0.5rem;
+  
   border-radius: 5px;
   cursor: pointer;
 }
@@ -124,3 +130,4 @@ h3,
 Button {
   margin: 8px;
 }
+
